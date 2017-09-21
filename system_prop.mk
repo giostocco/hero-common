@@ -110,3 +110,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.compcache.default=18 \
 	ro.max.fling_velocity=12000 \
 	ro.min.fling_velocity=8000
+
+ADDITIONAL_DEFAULT_PROPERTIES += \
+-	ro.secure=0 \
+-	ro.adb.secure=0 \
+-	ro.hardware=universal8890 \
+-	persist.service.adb.enable=1 \
+-	persist.service.debuggable=1 \
+-	persist.sys.usb.config=adb \
+-	ro.securestorage.support=false
