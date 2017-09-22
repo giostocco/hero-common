@@ -120,8 +120,8 @@
 /sys/devices/system/cpu/cpu*   cpufreq/nexus/up_step                   0664    system  system
 
 # MIF
-/dev/block/platform/15570000.ufs/by-name/RADIO     0660   system     radio
-/dev/block/platform/15570000.ufs/by-name/DNT     0660   system     system
+/dev/block/platform/155a0000.ufs/by-name/RADIO     0660   system     radio
+/dev/block/platform/155a0000.ufs/by-name/DNT     0660   system     system
 /dev/block/mmcblk0p13     0660   system     radio
 /dev/block/mmcblk0p15     0660   system     system
 /dev/umts*                0660   system     radio
@@ -165,10 +165,10 @@
 /sys/devices/platform/bbd.0/ssi_trace    0440   gps   system
 
 # Reactivation lock
-/dev/block/platform/15570000.ufs/by-name/STEADY    0660    system    system
+/dev/block/platform/155a0000.ufs/by-name/STEADY    0660    system    system
 
 # Google FRP solution
-/dev/block/platform/15570000.ufs/by-name/PERSISTENT    0660    system    system
+/dev/block/platform/155a0000.ufs/by-name/PERSISTENT    0660    system    system
 
 # FM Radio
 /dev/radio0               0660   system     audio

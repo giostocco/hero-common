@@ -16,7 +16,7 @@
 
 # Hardware
 BOARD_HARDWARE_CLASS += hardware/samsung/cmhw
-BOARD_HARDWARE_CLASS += device/samsung/zero-common/cmhw
+BOARD_HARDWARE_CLASS += device/samsung/hero-common/cmhw
 
 # HWCServices
 BOARD_USES_HWC_SERVICES := true

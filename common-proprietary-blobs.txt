@@ -141,8 +141,8 @@ lib64/libMcClient.so
 
 # NFC
 etc/sec_s3fwrn5p_rfreg.bin
-lib/hw/nfc_nci.universal7420.so
-lib64/hw/nfc_nci.universal7420.so
+lib/hw/nfc_nci.universal8890.so
+lib64/hw/nfc_nci.universal8890.so
 vendor/firmware/sec_s3fwrn5p_firmware.bin
 
 # NXP
@@ -394,10 +394,10 @@ lib64/libsecnativefeature.so
 
 # Sensors
 lib64/libhr.so
-lib/hw/sensors.universal7420.so
-lib64/hw/sensors.universal7420.so
-lib/hw/sensorhubs.universal7420.so
-lib64/hw/sensorhubs.universal7420.so
+lib/hw/sensors.universal8890.so
+lib64/hw/sensors.universal8890.so
+lib/hw/sensorhubs.universal8890.so
+lib64/hw/sensorhubs.universal8890.so
 lib/libsensorservice.so
 lib64/libsensorservice.so
 bin/bcm_sensorhub_a2.patch

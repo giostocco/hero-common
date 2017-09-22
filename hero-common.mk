@@ -14,9 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := $(call my-dir)
-SAM_ROOT := hardware/samsung
+LOCAL_PATH := device/samsung/hero-common
 
-ifneq ($(filter herolte hero2lte, $(TARGET_DEVICE)),)
-  include $(call all-subdir-makefiles,$(LOCAL_PATH))
-endif
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+
+# include splitted configs
+-include $(LOCAL_PATH)/configs/product/*.mk
+
+# call Samsung LSI board support package
+$(call inherit-product, hardware/samsung_slsi-cm/exynos5/exynos5.mk)
+$(call inherit-product, hardware/samsung_slsi-cm/exynos8890/exynos8890.mk)
+
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/samsung/hero-common/hero-common-vendor.mk)

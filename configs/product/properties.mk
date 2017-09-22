@@ -17,7 +17,7 @@
 
 # Common
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.chipname=exynos7420 \
+    ro.chipname=exynos8890 \
     ro.nfc.sec_hal=true \
     ro.sf.lcd_density=640 \
     ro.sys.sdcardfs=1 \
@@ -65,4 +65,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # OTA
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.nexus.otaname=zero
+    ro.nexus.otaname=hero

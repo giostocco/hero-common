@@ -15,4 +15,4 @@
 #
 
 # NFC
-BOARD_NFC_HAL_SUFFIX := universal7420
+BOARD_NFC_HAL_SUFFIX := universal8890

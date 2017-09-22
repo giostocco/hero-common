@@ -15,7 +15,7 @@
 #
 
 # Seccomp filters
-BOARD_SECCOMP_POLICY += device/samsung/zero-common/seccomp
+BOARD_SECCOMP_POLICY += device/samsung/hero-common/seccomp
 
 # Sepolicy
 BOARD_SEPOLICY_DIRS := $(LOCAL_PATH)/sepolicy
