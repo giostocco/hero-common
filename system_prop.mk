@@ -96,12 +96,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	wifi.interface=wlan0
 
-# ResurrectionRemix
+# H/W Composer	
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.hwc.max_hw_overlays=0 \
-	debug.sf.hw=1 \
-	persist.sys.ui.hw=1 \
-	debug.egl.hw=1
+    debug.hwc.force_gpu=0 \
+    debug.hwc.max_hw_overlays=1 \
+    debug.egl.hw=1 \
+    debug.sf.hw=1 \
+    persist.sys.ui.hw=true
 	
 # Surface
 PRODUCT_PROPERTY_OVERRIDES += \
